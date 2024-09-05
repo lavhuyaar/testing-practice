@@ -1,5 +1,4 @@
-const sum = require('./main');
-
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
+//Capitalize test
+const capitalize = require('./capitalize')
+test('Capitalized string', ()=> 
+expect(capitalize('jupiter')).toBe('Jupiter'))
