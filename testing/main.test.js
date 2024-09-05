@@ -18,3 +18,12 @@ const caesarCipher = require("./caesarCipher");
 test("Caesar Cipher 1", () => expect(caesarCipher('xyz', 3)).toBe('abc'))
 test("Caesar Cipher 2", () => expect(caesarCipher('HeLLo', 3)).toBe('KhOOr'))
 test("Caesar Cipher 3", () => expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!'))
+
+//Analyze array test
+const analyzeArray = require('./analyzeArray')
+test("Analyze array", () => expect(analyzeArray([1,8,3,4,2,6])).toBe(object == {
+    average: 4,
+    min: 1,
+    max: 8,
+    length: 6
+ }))
